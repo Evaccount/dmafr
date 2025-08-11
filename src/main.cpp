@@ -26,7 +26,7 @@ int main(){
         std::cout << page << std::endl;
         end = downloadImage(geturlimage(gethtml(page)), npage);
         npage++;
-        //sleep(1);
+
     }
 
     return 0;
